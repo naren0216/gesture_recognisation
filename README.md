@@ -1,11 +1,10 @@
-# Django Portfolio Website
+# Gesture Recognition using OpenCV
 
-A personal portfolio website built using **Django**, **HTML**, and **CSS** to showcase projects, skills, and achievements in a structured and responsive format.
+A real-time gesture recognition system using **OpenCV** and **Haarcascade face detection**, capable of detecting and tracking faces from a webcam feed.
 
 ## Features
-- **Home Page:** Introduction and overview  
-- **About Page:** Personal details and skills  
-- **Projects Page:** Display of past work  
-- **Contact Form:** Allows visitors to reach out (if implemented)  
-- **Responsive Design:** Works on all devices  
-- **Dynamic Content:** Managed with Django  
+- Real-time face detection using OpenCV
+- Uses Haarcascade classifier for facial recognition
+- Draws bounding boxes around detected faces
+- Adjustable brightness and contrast settings
+- Press 'q' to exit the application
